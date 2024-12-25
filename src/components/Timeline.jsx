@@ -4,7 +4,7 @@ import Title from './Title';
 const Timeline = () => {
 	return (
 		<div className='flex flex-col md:flex-row justify-center my-20'>
-			<div className='w-7/12'>
+			<div className='w-1/2'>
 				<Title id="timeline">Timeline</Title>
 				{timeline.map((item) => (
 					<TimelineItem

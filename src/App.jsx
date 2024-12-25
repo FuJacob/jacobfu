@@ -1,16 +1,16 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
+import { BackgroundLines } from './components/background-lines';
+import { Analytics } from '@vercel/analytics/react';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 import About from './components/About';
-import { BackgroundLines } from './components/background-lines';
 
-import { Analytics } from '@vercel/analytics/react';
-
+import Footer from './components/Footer';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
 function App() {
 	const [count, setCount] = useState(0);
 
@@ -22,8 +22,11 @@ function App() {
 					<Nav />
 					<Hero />
 					<About />
+          <Portfolio />
+          <Resume />
 					<Timeline />
 					<Contact />
+          <Footer/>
 				</BackgroundLines>
 			</main>
 		</>
