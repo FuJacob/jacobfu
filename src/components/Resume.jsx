@@ -4,10 +4,26 @@ import {
 	AccordionItemContent,
 	AccordionItemTrigger,
 	AccordionRoot,
-} from '@/components/ui/accordion';
-import { LuBarChart, LuTags } from 'react-icons/lu';
+} from '@/components/ui/accordion'; // Adjust the import path if needed
 
-const Demo = () => {
+const Resume = () => {
+	const items = [
+		{
+			value: 'info',
+			icon: null,
+			title: 'Product Info',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec odio vel dui euismod fermentum.',
+		},
+		{
+			value: 'stats',
+			icon: null,
+			title: 'Stats',
+			content:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec odio vel dui euismod fermentum.',
+		},
+	];
+
 	return (
 		<Stack width='full' maxW='400px'>
 			<Heading size='md'>Product details</Heading>
@@ -15,10 +31,15 @@ const Demo = () => {
 				{items.map((item) => (
 					<AccordionItem key={item.value} value={item.value}>
 						<AccordionItemTrigger>
-							<Icon fontSize='lg' color='fg.subtle'>
-								{item.icon}
-							</Icon>
-							{item.title}
+							{/* Wrapping the icon and title inside a single parent element */}
+							<div style={{ display: 'flex', alignItems: 'center' }}>
+								{item.icon && (
+									<Icon fontSize='lg' color='fg.subtle'>
+										{item.icon}
+									</Icon>
+								)}
+								{item.title}
+							</div>
 						</AccordionItemTrigger>
 						<AccordionItemContent>{item.content}</AccordionItemContent>
 					</AccordionItem>
@@ -28,19 +49,4 @@ const Demo = () => {
 	);
 };
 
-const items = [
-	{
-		value: 'info',
-		icon: <LuTags />,
-		title: 'Product Info',
-		content:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec odio vel dui euismod fermentum.',
-	},
-	{
-		value: 'stats',
-		icon: <LuBarChart />,
-		title: 'Stats',
-		content:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec odio vel dui euismod fermentum.',
-	},
-];
+export default Resume;
