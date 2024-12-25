@@ -17,7 +17,7 @@ const Footer = () => {
 								<FaLinkedin size={40} />
 							</a>
 						</div>
-						<h1 className='font-semibold text-lg'>Designed and developed by Jacob Fu</h1>{' '}
+						<h1 className='font-semibold md:text-lg'>Designed and developed by Jacob Fu</h1>{' '}
 					</div>
 				</div>
 			</div>

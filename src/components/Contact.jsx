@@ -5,7 +5,7 @@ const Contact = () => {
 	return (
 		<>
 			<section className='flex flex-col md:flex-row justify-center my-20'>
-				<div className='w-1/2 space-y-6'>
+				<div className='md:w-1/2 space-y-6'>
 					<Title id="contact">Contact</Title>
 					<h1>
 						Feel free to check me out at the platforms below.
