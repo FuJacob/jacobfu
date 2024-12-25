@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<footer>
 			<div className='flex flex-col md:flex-row justify-center text-gray-600'>
-				<div className='w-1/2 border-t border-gray-600 border-t-2'>
+				<div className='md:w-1/2 border-t border-gray-600 border-t-2'>
 					<div className='flex justify-between mt-2'>
 						<div className='flex gap-5'>
 							<a href='mailto:jacob.fu@uwaterloo.ca' target='_blank' className='hover:scale-105 duration-300 ease-in-out'>
