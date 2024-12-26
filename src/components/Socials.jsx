@@ -16,7 +16,7 @@ const Socials = () => {
 				<FaGithub size={40} />
 			</a>
 			<a
-				href='https://linkedin.com/fujacob'
+				href='https://www.linkedin.com/in/fujacob/'
 				target='_blank'
 				className='hover:scale-105 duration-300 ease-in-out'>
 				<FaLinkedin size={40} />
