@@ -9,7 +9,6 @@ import Contact from './components/Contact';
 import About from './components/About';
 
 import Footer from './components/Footer';
-import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 function App() {
 	const [count, setCount] = useState(0);
@@ -17,16 +16,15 @@ function App() {
 	return (
 		<>
 			<Analytics />
-			<main className='p-12 min-h-screen bg-[#0D1117] text-white'>
-				<BackgroundLines className='flex items-center justify-center w-full flex-col px-4'>
+			<main className='p-12 min-h-screen bg-gradient-to-r from-[#0D1117] to-[#06080C] text-white'>
+				<BackgroundLines>
 					<Nav />
 					<Hero />
 					<About />
-          <Portfolio />
-          <Resume />
+					<Portfolio />
 					<Timeline />
 					<Contact />
-          <Footer/>
+					<Footer />
 				</BackgroundLines>
 			</main>
 		</>

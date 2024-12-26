@@ -3,8 +3,8 @@ import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
 	return (
 		<footer>
-			<div className='flex flex-col md:flex-row justify-center text-gray-600'>
-				<div className='md:w-1/2 border-t border-gray-600 border-t-2'>
+			<div className='flex flex-col lg:flex-row justify-center text-gray-600'>
+				<div className='lg:w-1/2 border-t border-gray-600 border-t-2'>
 					<div className='flex justify-between mt-2'>
 						<div className='flex gap-5'>
 							<a href='mailto:jacob.fu@uwaterloo.ca' target='_blank' className='hover:scale-105 duration-300 ease-in-out'>
@@ -17,7 +17,7 @@ const Footer = () => {
 								<FaLinkedin size={40} />
 							</a>
 						</div>
-						<h1 className='font-semibold md:text-lg'>Designed and developed by Jacob Fu</h1>{' '}
+						<h1 className='font-semibold lg:text-lg'>Designed and developed by Jacob Fu</h1>{' '}
 					</div>
 				</div>
 			</div>

@@ -13,7 +13,7 @@ const Hero = () => {
 					Jacob Fu
 				</h1>
 				<h1 className='md:text-xl font-semibold text-gray-600 transform hover:scale-105 duration-300 ease-in-out'>
-					Computer Science & Finance Student
+					"Blessed is he who expects nothing, for he shall never be disappointed"
 				</h1>
 			</div>
 		</section>
