@@ -5,6 +5,7 @@ const About = () => {
 	return (
 		<>
 			<section>
+				<div>''</div>
 				<div className='flex flex-col lg:flex-row justify-center my-20'>
 					<div className='lg:w-1/2'>
 						<Title id='about'>About me</Title>
