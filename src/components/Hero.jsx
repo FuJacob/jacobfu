@@ -9,7 +9,7 @@ const Hero = () => {
 					alt='photo'
 					className='transform hover:scale-105 duration-300 ease-in-out m-6 w-36 md:w-64 rounded-full'
 				/>
-				<h1 className='text-5xl md:text-7xl font-black transform hover:scale-105 duration-300 ease-in-out'>
+				<h1 className='text-7xl font-black transform hover:scale-105 duration-300 ease-in-out'>
 					Jacob Fu
 				</h1>
 				<h1 className='md:text-xl font-semibold text-gray-600 transform hover:scale-105 duration-300 ease-in-out'>

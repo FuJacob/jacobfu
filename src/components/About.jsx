@@ -5,11 +5,10 @@ const About = () => {
 	return (
 		<>
 			<section>
-				<div>''</div>
 				<div className='flex flex-col lg:flex-row justify-center my-20'>
 					<div className='lg:w-1/2'>
 						<Title id='about'>About me</Title>
-						<div className='flex flex-row justify-center gap-12 text-xl'>
+						<div className='flex flex-col lg:flex-row justify-center gap-12 text-xl'>
 							<div className='flex flex-col gap-10'>
 								<h1 className='text-5xl font-black'>Hey, I'm Jacob!</h1>
 								<p className='border-l border-l-8 px-8 text-xl font-semibold'>
