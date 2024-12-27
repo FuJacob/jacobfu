@@ -5,7 +5,7 @@ const Timeline = () => {
 	return (
 		<div className='flex flex-col lg:flex-row justify-center my-20'>
 			<div className='lg:w-1/2'>
-				<Title id="timeline">Timeline</Title>
+				<Title id='timeline'>Timeline</Title>
 				{timeline.map((item) => (
 					<TimelineItem
 						key={item.title}
