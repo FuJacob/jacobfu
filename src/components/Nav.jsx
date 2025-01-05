@@ -35,7 +35,7 @@ const Nav = () => {
 						</a>
 						<button
 							onClick={() => {
-								window.open('JacobFu_Resume.pdf', '_blank');
+								window.open('Jacob_Fu_resume.pdf', '_blank');
 							}}
 							className='bg-gradient-to-r from-[#A534A0] to-[#7F1E7C] text-white font-semibold px-5 py-2 rounded-xl hover:scale-105 transform transition duration-300 ease-in-out'>
 							Résumé
@@ -81,7 +81,7 @@ const Nav = () => {
 							</a>
 							<button
 								onClick={() => {
-									window.open('JacobFu_Resume.pdf', '_blank');
+									window.open('Jacob_Fu_resume.pdf', '_blank');
 								}}
 								className='bg-[#A534A0] text-white font-semibold px-5 py-2 rounded-xl hover:scale-105 transform transition duration-300 ease-in-out'>
 								Résumé
