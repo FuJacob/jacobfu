@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 import { Analytics } from '@vercel/analytics/react';
 import Nav from './components/Nav';
@@ -11,7 +10,6 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 function App() {
-	const [count, setCount] = useState(0);
 
 	return (
 		<>

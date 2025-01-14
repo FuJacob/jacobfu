@@ -11,7 +11,7 @@ const Resume = () => {
 	return (
 		<>
 			<section className='flex flex-col lg:flex-row justify-center my-20'>
-				<div className='lg:w-1/2 space-y-6'>
+				<div className='lg:w-[62em] space-y-6'>
 					<Stack width='full'>
 						<AccordionRoot
 							collapsible
@@ -61,63 +61,54 @@ const Resume = () => {
 		</>
 	);
 };
-
 const items = [
-	{
-		value: 'exp',
-		icon: <FaBriefcase />,
-		title: 'Work Experience',
-		content: [
-			{
-				company: '1000 Islands Gananoque Chamber of Commerce',
-				role: 'Digital Design Intern',
-				duration: 'Jun 2024 - Sep 2024',
-				details: [
-					'Redesigned website to improve usability and design, increasing weekly visitors by 65% and session duration by 120%',
-					'Created and designed 50+ social media assets, using Adobe Photoshop and Canva to support marketing campaigns',
-					'Edited high-quality promotional social media videos using Adobe Premiere Pro, driving 500+ impressions per video',
-				],
-			},
-			{
-				company: 'Weehooey',
-				role: 'IT Solutions Intern',
-				duration: 'Sep 2023 - Feb 2024',
-				details: [
-					'Developed a web-app using JavaScript and HTML/CSS to calculate client employee bonuses, used by 100+ employees',
-					"Improved Weehooey's server maintenance script by automating the delivery of server analytics to IT using PowerShell",
-					"Managed 30+ client servers' system and security health, proactively identifying and resolving potential issues",
-				],
-			},
-			{
-				company: 'Self-employed',
-				role: 'Indie Game Developer',
-				duration: 'Jun 2019 - Apr 2022',
-				details: [
-					'Developed an online zombie-tag .io game using modd.io editor, HTML/CSS, and JavaScript, hosted on modd.io servers',
-					'Amassed 200+ concurrent players, 4.2M+ total plays, 250K+ unique players, and reached virality with 570k+ views',
-					'Implemented monetization through Patreon subscriptions and micro-transactions, ultimately generating $2,500+ CAD',
-					'Led a team of 3 developers to deliver weekly content updates including new maps events, items, and gameplay features',
-				],
-			},
-		],
-	},
-	{
-		value: 'edu',
-		icon: <FaUniversity />,
-		title: 'Education',
-		content: [
-			{
-				company: 'Bachelor of Computing and Financial Management',
-				role: 'University of Waterloo',
-				duration: 'Sep 2024 - April 2029',
-				details: [
-					'Cumulative GPA: 3.94/4.00',
-					'Awards: Robert Harding Entrance Scholarship ($5000), President’s Scholarship of Distinction ($2500)',
-					'Relevant Coursework: Functional Programs, Financial Markets & Data Analytics, Algorithm Design & Data Abstraction',
-				],
-			},
-		],
-	},
+  {
+    value: "exp",
+    icon: <FaBriefcase />,
+    title: "Work Experience",
+    content: [
+      {
+        company: "PetMap – UC Berkeley Startup",
+        role: "Software Developer",
+        duration: "Jan 2025 – Apr 2025",
+        details: [
+          "Developing a platform using FERN stack (Firebase, Express, React, Node) with TypeScript for connecting dog lovers and owners.",
+          "Implementing a real-time map interface using Google Maps API and proximity algorithms for location-based user matching.",
+          "Collaborating on feature development in Agile sprints within an 8-person team, implementing CI/CD practices and code reviews.",
+        ],
+      },
+      {
+        company: "1000 Islands Gananoque Chamber of Commerce",
+        role: "Digital Media & Marketing Intern",
+        duration: "Jun 2024 – Sep 2024",
+        details: [
+          "Redesigned website by optimizing navigation and content layout, boosting weekly visitors by 65% and session duration by 120%.",
+          "Produced 60+ promotional assets and videos, driving 500+ impressions per video and supporting 2+ marketing campaigns.",
+          "Optimized Mailchimp email campaigns through A/B testing and refining email design and content, increasing click rates by 60%.",
+        ],
+      },
+      {
+        company: "Weehooey",
+        role: "Information Technology Intern",
+        duration: "Sep 2023 – Feb 2024",
+        details: [
+          "Developed a JavaScript web app to automate work bonus calculations, saving a client’s employees 7+ collective hours per month.",
+          "Improved existing server maintenance script by automating log reporting via PowerShell, reducing labor by 30+ minutes daily.",
+          "Monitored and managed 30+ client servers daily, proactively reporting and resolving security vulnerabilities to reduce downtime.",
+        ],
+      },
+      {
+        company: "Self-employed",
+        role: "HTML5 Game Developer",
+        duration: "Jun 2019 – Apr 2022",
+        details: [
+          "Developed a multiplayer zombie-survival .io game using Modd.io HTML5 Game Engine, Modd.io server hosting, and HTML/CSS.",
+          "Grew player base to 248K+ users with 4.2M+ gameplay sessions, generating $2,500+ CAD through Patreon and micro-transactions.",
+          "Led a team of 3 developers using Agile practices to efficiently deliver weekly updates such as new maps, items, and events.",
+        ],
+      },
+    ],
+  },
 ];
 
 export default Resume;

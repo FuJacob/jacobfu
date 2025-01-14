@@ -1,37 +1,30 @@
 export default [
-	{
-		year: 'Currently searching for',
-		title: 'Summer 2025 Co-op',
-		duration: '4 months',
-		details:
-			'Currently seeking a summer 2025 co-op in the software development industry. Please contact me if you have any opportunities available.',
-	},
-	{
-		year: 'Sep 2024 - Apr 2025',
-		title: 'Computer Science and Finance Student',
-		duration: 'Ongoing',
-		details:
-			'Pursuing a degree at the University of Waterloo with a focus on Computer Science and Finance. Relevant coursework includes Functional Programs, Financial Markets & Data Analytics, and Algorithm Design & Data Abstraction.',
-	},
-	{
-		year: 'Jun 2024 - Sep 2024',
-		title: 'Digital Design Intern',
-		duration: '3 months',
-		details:
-			'Redesigned the website for the 1000 Islands Gananoque Chamber of Commerce, improving usability and increasing weekly visitors by 65%. Created 50+ social media assets and edited high-quality promotional videos, driving significant engagement.',
-	},
-	{
-		year: 'Sep 2023 - Feb 2024',
-		title: 'IT Solutions Intern',
-		duration: '6 months',
-		details:
-			'Developed a web app to calculate client employee bonuses, used by over 100 employees. Improved server maintenance automation with PowerShell and managed the health of 30+ client servers.',
-	},
-	{
-		year: 'Jun 2019 - Apr 2022',
-		title: 'Indie Game Developer',
-		duration: '3 years',
-		details:
-			'Developed an online zombie-tag .io game using modd.io, HTML/CSS, and JavaScript. The game achieved 200+ concurrent players, 4.2M+ total plays, and monetized through Patreon and micro-transactions, generating over $2,500 CAD.',
-	},
+  {
+    year: "Jan 2025 - Apr 2025",
+    title: "Software Developer",
+    duration: "4 months",
+    details:
+      "Developing a FERN stack platform for connecting dog lovers and owners. Implementing real-time map interface with Google Maps API and proximity algorithms. Working in Agile sprints within an 8-person team, implementing CI/CD practices and code reviews.",
+  },
+  {
+    year: "Jun 2024 - Sep 2024",
+    title: "Digital Media & Marketing Intern",
+    duration: "4 months",
+    details:
+      "Redesigned website by optimizing navigation and content layout, boosting weekly visitors by 65% and session duration by 120%. Produced 60+ promotional assets and videos, driving 500+ impressions per video. Optimized Mailchimp email campaigns through A/B testing, increasing click rates by 60%.",
+  },
+  {
+    year: "Sep 2023 - Feb 2024",
+    title: "Information Technology Intern",
+    duration: "6 months",
+    details:
+      "Developed a JavaScript web app to automate work bonus calculations, saving client employees 7+ collective hours monthly. Improved server maintenance script automation via PowerShell, reducing labor by 30+ minutes daily. Monitored and managed 30+ client servers, resolving security vulnerabilities to reduce downtime.",
+  },
+  {
+    year: "Jun 2019 - Apr 2022",
+    title: "HTML5 Game Developer",
+    duration: "3 years",
+    details:
+      "Developed a multiplayer zombie-survival .io game using Modd.io HTML5 Game Engine and HTML/CSS. Grew player base to 248K+ users with 4.2M+ gameplay sessions, generating $2,500+ CAD through Patreon and micro-transactions. Led a team of 3 developers using Agile practices for weekly updates.",
+  },
 ];
