@@ -109,6 +109,23 @@ const items = [
       },
     ],
   },
+  {
+    value: "edu",
+    icon: <FaUniversity />,
+    title: "Education",
+    content: [
+      {
+        company: "Bachelor of Computing and Financial Management",
+        role: "University of Waterloo",
+        duration: "Sep 2024 - April 2029",
+        details: [
+          "Cumulative GPA: 3.94/4.00",
+          "Awards: Robert Harding Entrance Scholarship ($5000), President’s Scholarship of Distinction ($2500)",
+          "Relevant Coursework: Functional Programs, Financial Markets & Data Analytics, Algorithm Design & Data Abstraction",
+        ],
+      },
+    ],
+  },
 ];
 
 export default Resume;
