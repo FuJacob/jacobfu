@@ -5,11 +5,11 @@ import React from 'react';
 
 export const BackgroundLines = ({ children, className, svgOptions }) => {
 	return (
-		<div>
-			<SVG svgOptions={svgOptions} />
-			{children}
-		</div>
-	);
+    <div className="fixed inset-0 -z-10 bg-gradient-to-r from-[#0D1117] to-[#06080C]">
+      <SVG svgOptions={svgOptions} />
+      {children}
+    </div>
+  );
 };
 
 const pathVariants = {

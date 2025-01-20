@@ -11,20 +11,16 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import { BackgroundLines } from './components/background-lines';
 function App() {
-
-	return (
+  return (
     <>
       <Analytics />
-      <main className="p-12 min-h-screen bg-gradient-to-r from-[#0D1117] to-[#06080C] text-white">
-        <Nav />
-        <BackgroundLines />
-
+      <BackgroundLines /> {/* Moved outside */}
+    <main className="relative p-12 min-h-screen overflow-auto text-white">
+      <Nav />
         <Hero />
-
         <About />
         <Resume />
         <Portfolio />
-
         <Contact />
         <Footer />
       </main>
