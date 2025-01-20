@@ -9,25 +9,27 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import { BackgroundLines } from './components/background-lines';
 function App() {
 
 	return (
-		<>
-			<Analytics />
-			<main className='p-12 min-h-screen bg-gradient-to-r from-[#0D1117] to-[#06080C] text-white'>
-					<Nav />
+    <>
+      <Analytics />
+      <main className="p-12 min-h-screen bg-gradient-to-r from-[#0D1117] to-[#06080C] text-white">
+        <Nav />
+        <BackgroundLines />
 
-					<Hero />
+        <Hero />
 
-				<About />
-				<Resume />
-				<Portfolio />
+        <About />
+        <Resume />
+        <Portfolio />
 
-				<Contact />
-				<Footer />
-			</main>
-		</>
-	);
+        <Contact />
+        <Footer />
+      </main>
+    </>
+  );
 }
 
 export default App;

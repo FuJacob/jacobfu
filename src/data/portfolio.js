@@ -13,7 +13,7 @@ export default [
       "Deepgram",
       "Tailscale",
     ],
-    link: "https://lnkd.in/eBQhA5PP", // Demo video link
+    link: "https://github.com/FuJacob/RBveal", // github link
     des: "An RBC phishing simulator that immerses users in multi-stage phishing scenarios to teach cybersecurity best practices.",
   },
   {
