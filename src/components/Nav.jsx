@@ -33,13 +33,10 @@ const Nav = () => {
 							className='hover:bg-white hover:text-[#0D1117] hover:scale-105 transform transition duration-300 ease-in-out px-5 py-2 rounded-xl'>
 							Contact
 						</a>
-						<button
-							onClick={() => {
-								window.open('JacobFu_resume.pdf', '_blank');
-							}}
+						{/* <a href="#lol"
 							className='bg-gradient-to-r from-[#A534A0] to-[#7F1E7C] text-white font-semibold px-5 py-2 rounded-xl hover:scale-105 transform transition duration-300 ease-in-out'>
 							Résumé
-						</button>
+						</a> */}
 					</div>
 				</div>
 			</nav>
