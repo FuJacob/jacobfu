@@ -15,14 +15,15 @@ function App() {
     <>
       <Analytics />
       <BackgroundLines /> {/* Moved outside */}
-    <main className="relative p-12 min-h-screen overflow-auto text-white">
-      <Nav />
-        <Hero />
-        <About />
+      <main className="relative p-12 min-h-screen overflow-auto text-white">
+        <h1>this website is not complete</h1>
+      {/* <Nav />
+        <Hero /> */}
+        {/* <About />
         <Resume />
         <Portfolio />
         <Contact />
-        <Footer />
+        <Footer /> */}
       </main>
     </>
   );
